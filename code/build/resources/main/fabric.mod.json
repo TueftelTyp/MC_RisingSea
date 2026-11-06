@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "risingsea",
+  "version": "0.3.2",
+  "name": "Rising Sea",
+  "description": "Configurable rising water survival challenge",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.risingsea.RisingSea"
+    ],
+    "modmenu": [
+      "de.risingsea.client.RisingSeaModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
